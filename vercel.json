@@ -3,13 +3,13 @@
   "builds": [
     {
       "src": "bin/www",
-      "use": "@vercel/node"
+      "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/bin/www"
+      "dest": "bin/www"
     }
   ]
 }
